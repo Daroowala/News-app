@@ -29,7 +29,7 @@
     </nav>
 
     <main>
-        <div class="card-container container flex">
+        <!-- <div class="card-container container flex">
             <div class="card">
                 <div class="card-header">
                     <img src="https://via.placeholder.com/400x200" alt="news-image" id="news-img">
@@ -41,10 +41,25 @@
                 </div>
                 
             </div>
+             -->
         </div>
 
          
     </main>
+
+    <template id="template-news-card">
+        <div class="card">
+            <div class="card-header">
+                <img src="https://via.placeholder.com/400x200" alt="news-image" id="news-img">
+            </div>
+            <div class="card-contant">
+                <h3 id="news-title">Card Title</h3>
+                <h5 class="news-source" id="news-source">End Gadget</h5>
+                <p class="news-description" id="news-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate illum velit molestias cum deleniti ea officiis maxime odit. Reiciendis, quaerat.</p>
+            </div>
+            
+        </div>
+    </template>
 </body>
 <script src="app.js"></script>
 </html>
