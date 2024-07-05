@@ -26,7 +26,7 @@ overflow: hidden;
 }
 nav{
     background-color: aliceblue;
-    box-shadow: 0px 0px 4px lightgray;
+    box-shadow: 0px 0px 10px lightgray;
     position: fixed;
     top: 0;
     left: 0;
@@ -35,10 +35,10 @@ nav{
 }
 .main-nav{
     justify-content: space-between;
-    padding: 8px 0px;
+    padding: 8px 25px;
 }
 .nav-links ul{
-    gap: 20px;
+    gap: 70px;
 }
 .hover-link{
     cursor: pointer;
@@ -47,5 +47,29 @@ nav{
 color: red;
 }
 .hover-link:active{
+    color: blue;
+}
+.search-bar{
+    height: 32px;
+    gap: 8px;
+}
+.news-input{
+    width: 200px;
+    height: 100%;
+    padding-inline: 12px;
+    border-radius: 4px;
+    border: 2px solid black;
+}
+.search-button{
+    background-color: lightblue;
+    padding: 7px 24px;
+    border: 2px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.search-button:hover{
+    background-color: lightgreen;
+}
+.search-button:active{
     color: blue;
 }
